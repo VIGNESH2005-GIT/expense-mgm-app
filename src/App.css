@@ -1,0 +1,96 @@
+.expense-item{
+
+    display: flex;
+    align-items: center;
+    background: lightgray;
+    padding:15px;
+    color:white;
+    margin:15px auto;
+    border-radius: 12px;
+    max-width: 750px;
+}
+
+.expense-date{
+
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        background-color: blue;
+        padding:15px;
+        margin-right: 15px;
+}
+
+.expense-item h2{
+
+    text-align: center;
+    color: black;
+    flex:auto;
+    font-size: 18px;
+    font-style: bold;
+}
+
+.expense-amt{
+
+        border-radius: 12px;
+        background-color: blueviolet;
+        padding:10px;
+        text-align: center;
+        font-weight: bold;
+}
+
+.new-expenese{
+    background: lavender;
+    border-radius: 5px;
+    padding: 12px;
+    margin:50px auto;
+    max-width: 750px;
+}
+
+.new-expenese h2{
+    text-align: center;
+}
+
+.new-expense-cntrl{
+        display: flex;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        justify-content: space-between;
+}
+
+.new-expense-control{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.new-expense-control label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.new-expense-control input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+}
+
+.new-expense-action {
+  display: flex;
+  justify-content: flex-end;
+  width: 48%;
+  align-items: flex-end;
+}
+
+
+.new-expense-action button {
+  background: #5c3085;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
